@@ -1,0 +1,70 @@
+.name{
+    border:3px ridge rgb(45, 171, 31);
+    border-width: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(66, 183, 66);
+}
+#enter_button{
+background-color: rgb(150, 152, 150);
+width: 60px;
+height: 30px;
+}
+#duser_name{
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    background-color: black;
+}
+#dother_person{
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    background-color: black;
+}
+.chatarea{
+    display: flex;
+   
+}
+.chatbox{
+  width: 80%;
+  border: 2px ridge black;
+  display: flex;
+}
+.send_button{
+  display:block;
+  margin-left: 420px;
+  
+
+}
+.leftside{
+    width: 50%;
+    height:500px;
+    background-color:whitesmoke;
+   border: 5px solid black;
+}
+.rightside{
+    width: 50%;
+    height:500px;
+    background-color:whitesmoke;
+    border: 5px solid rgb(30, 28, 28);
+} 
+#msg_rightbox{
+border-width: 1px;
+margin-left: 15px;
+padding: 15px;
+border-radius: 10px;
+width: 400px;
+background-color: rgb(193, 190, 190);
+}
+#msg_leftbox{
+    border-width: 1px;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width:400px;
+    background-color: rgb(193, 190, 190);
+}
+   

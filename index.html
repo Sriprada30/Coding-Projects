@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet"  type="text/css" href="style.css">
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+ <center> <h2>WHATSAPP</h2>
+
+      
+        <input type="text"  id="user_name" class="name" placeholder="Enter your name">
+   
+        <input type="text"  id="other_person" class="name" placeholder="Enter name of opponent" >
+    
+        <button type="button" id="enter_button" onclick="enter()" >Enter</button></center>
+              
+      <br><br>
+    
+  <div class="chatarea">
+
+        <div class="leftside">
+
+            <h3 id="duser_name"></h3>
+        
+        <input type="text" id="input_message1" class="chatbox form-control" style="margin-left: 15px;">
+        
+        <button class="btn btn-success send_button" onclick="send1()">
+
+          Send&nbsp;
+          <i class='fa fa-location-arrow'></i>
+    
+        </button>
+
+        <h4 id="msg_leftbox" ></h4>
+        </div>
+
+        <div class="rightside ">
+          <!--dother_person==display in other person chat-->
+         <h3 id="dother_person" ></h3>
+        
+         
+         <input type="text" id="input_message2" class="chatbox form-control" style="margin-left: 15px;">
+        <button class="btn btn-success send_button" onclick="send2()" >
+       Send&nbsp;
+       <i class='fa fa-location-arrow'></i>  
+      </button>
+    
+      <h4 id="msg_rightbox" ></h4>
+       </div>
+
+   </div>
+
+   
+  
+</body>
+</html>
